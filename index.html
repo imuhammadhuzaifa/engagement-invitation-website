@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#b98b63" />
+  <title>Engagement Invitation | A & M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Opening screen -->
+  <section class="opening" id="opening">
+    <div class="opening-pattern"></div>
+    <div class="opening-card">
+      <div class="tiny">A SPECIAL INVITATION</div>
+      <div class="ring">♡</div>
+      <h1>Engagement</h1>
+      <p>Two hearts, one beautiful beginning.</p>
+      <button id="openBtn">Open Invitation</button>
+    </div>
+  </section>
+
+  <main id="invitation" class="invitation hidden">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="curtain curtain-left"></div>
+      <div class="curtain curtain-right"></div>
+      <div class="hero-content">
+        <p class="eyebrow">WITH JOY IN OUR HEARTS</p>
+        <p class="script">The Beginning of Forever</p>
+        <h2><span id="personOne">Ayaan</span> <i>&amp;</i> <span id="personTwo">Maira</span></h2>
+        <p class="hero-date">ARE GETTING ENGAGED</p>
+        <div class="date-pill">
+          <span>18</span><b>•</b><span>DECEMBER</span><b>•</b><span>2026</span>
+        </div>
+        <div class="scroll">SCROLL TO DISCOVER <span>↓</span></div>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="section intro">
+      <p class="eyebrow">A NEW CHAPTER BEGINS</p>
+      <h3>Join us as we celebrate<br><em>our engagement</em></h3>
+      <p class="body-copy">
+        With the blessings of our families, we are delighted to invite you
+        to share this beautiful moment with us as we take the first step
+        towards a lifetime together.
+      </p>
+      <div class="ornament">✦ &nbsp; ❦ &nbsp; ✦</div>
+    </section>
+
+    <!-- Couple -->
+    <section class="section couple">
+      <div class="photo-placeholder">
+        <span>YOUR PHOTO</span>
+        <small>Replace this box with your couple photo</small>
+      </div>
+      <div class="couple-copy">
+        <p class="eyebrow">THE HAPPY COUPLE</p>
+        <h3><span id="personOne2">Ayaan</span><br><i>&amp;</i><br><span id="personTwo2">Maira</span></h3>
+        <p>“And suddenly, all the love songs were about us.”</p>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section class="section event">
+      <p class="eyebrow">SAVE THE DATE</p>
+      <h3>Our Engagement</h3>
+
+      <div class="event-grid">
+        <div class="event-box">
+          <span class="icon">♡</span>
+          <small>DATE</small>
+          <strong>Friday</strong>
+          <b>18 December 2026</b>
+        </div>
+
+        <div class="event-box">
+          <span class="icon">◷</span>
+          <small>TIME</small>
+          <strong>7:30 PM</strong>
+          <b>Guests to arrive at 7:00 PM</b>
+        </div>
+
+        <div class="event-box">
+          <span class="icon">⌖</span>
+          <small>VENUE</small>
+          <strong>The Grand Hall</strong>
+          <b>Karachi, Pakistan</b>
+        </div>
+      </div>
+
+      <a class="map-btn" href="https://www.google.com/maps" target="_blank" rel="noopener">
+        VIEW LOCATION
+      </a>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section">
+      <div class="overlay"></div>
+      <div class="countdown-content">
+        <p class="eyebrow">COUNTING DOWN TO OUR DAY</p>
+        <h3>Until we celebrate</h3>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section rsvp">
+      <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+      <h3>Kindly RSVP</h3>
+      <p class="body-copy">Your presence will make our celebration even more special.</p>
+
+      <form id="rsvpForm">
+        <input type="text" id="guestName" placeholder="Your Name" required />
+        <select id="attendance" required>
+          <option value="">Will you attend?</option>
+          <option>Joyfully Accept</option>
+          <option>Regretfully Decline</option>
+        </select>
+        <button type="submit">SEND RSVP</button>
+      </form>
+      <p class="form-message" id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="script">With love,</p>
+      <h4><span id="personOne3">Ayaan</span> &amp; <span id="personTwo3">Maira</span></h4>
+      <p>We can't wait to celebrate with you ♡</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
